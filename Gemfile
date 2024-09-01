@@ -46,6 +46,8 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   gem "sqlite3", ">= 1.4"
+
+  gem "byebug", platforms: [ :mri, :mingw, :x64_mingw ]
 end
 
 group :development do
